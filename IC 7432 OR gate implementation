@@ -1,0 +1,15 @@
+module or_gate_ic7432(
+
+    input  a1,b1,a2,b2,a3, b3,a4,b4,
+    output g1,
+    output g2,
+    output g3,
+    output g4
+);
+
+    assign g1 = (a1|b1);
+    assign g2 = (a2|b2);
+    assign g3 = (a3|b3);
+    assign g4 = (a4|b4);
+
+endmodule
